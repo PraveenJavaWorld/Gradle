@@ -1,0 +1,14 @@
+/*task t1{
+	doLast{
+		println"Welcome to Gradle"
+	}
+}*/
+
+
+/*task t1 <<{
+	println "Welcome to Gradle 2"
+}*/
+
+task t1{
+	println "Welcome to Gradle 3"
+}
